@@ -3,7 +3,7 @@ import httpStatus from 'http-status';
 import ApiError from '../../errors/apiError';
 import { JwtHelper } from '../../helpers/jwtHelper';
 import { IAuthUser } from '../../interfaces/auth';
-
+// Auth
 const auth =
   (...requiredRoles: string[]) =>
     async (req: any, res: Response, next: NextFunction) => {
