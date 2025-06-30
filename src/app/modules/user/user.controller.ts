@@ -2,7 +2,7 @@ import { NextFunction, Request, Response } from 'express';
 import { UserService } from './user.service';
 import sendResponse from '../../../shared/response';
 
-
+// user controller
 const createStudent = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const result = await UserService.createStudent(req);
