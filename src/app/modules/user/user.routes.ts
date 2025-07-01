@@ -4,7 +4,7 @@ import auth from '../../middlewares/auth';
 import { ENUM_USER_ROLE } from '../../../enums/user';
 import { FileUploadHelper } from '../../../helpers/FileUploadHelper';
 import { UserValidation } from './user.validations';
-
+// User route
 const router = express.Router();
 
 router.post(
