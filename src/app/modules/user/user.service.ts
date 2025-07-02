@@ -3,7 +3,7 @@ import { FileUploadHelper } from "../../../helpers/FileUploadHelper";
 import { ICloudinaryResponse, IUploadFile } from "../../../interfaces/file";
 import { AuthService } from "../../../shared/axios";
 import { IGenericResponse } from "../../../interfaces/common";
-
+// User Service 
 const createStudent = async (req: Request) => {
     const file = req.file as IUploadFile;
     const uploadedImage = await FileUploadHelper.uploadToCloudinary(file);
