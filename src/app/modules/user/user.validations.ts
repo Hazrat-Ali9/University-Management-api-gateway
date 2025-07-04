@@ -1,5 +1,5 @@
 import { z } from 'zod';
-
+// user validation
 const createStudent = z.object({
   password: z.string().optional(),
 
