@@ -19,7 +19,7 @@ import { managementDepartmentRoutes } from '../modules/managementDepartment/mana
 import { adminRoutes } from '../modules/admin/admin.routes';
 import { studentRoutes } from '../modules/student/student.routes';
 
-
+// index js
 const router = express.Router();
 
 const moduleRoutes = [
