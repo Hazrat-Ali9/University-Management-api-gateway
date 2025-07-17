@@ -8,3 +8,4 @@ export const daysInWeek = [
     'FRIDAY'
 ];
 
+// Global
